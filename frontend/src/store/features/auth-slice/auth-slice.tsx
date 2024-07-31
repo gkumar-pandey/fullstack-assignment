@@ -1,0 +1,18 @@
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import type { PayloadAction } from "@reduxjs/toolkit";
+
+const initialState = {
+  user: null,
+  toke: "",
+};
+
+export const authSlice = createSlice({
+  name: "auth",
+  initialState,
+  reducers: {},
+  extraReducers: (builder) => {},
+});
+
+export const {} = authSlice.actions;
+
+export default authSlice.reducer;
